@@ -51,19 +51,19 @@
                             <xsl:for-each select="Tag">
                               <xsl:sort select="Name" />
                               <xsl:if test="Name='GOG'">
-                                <img class="logo_tiny" src="images/gog_logo_tiny.png" width="24" height="24" alt="GOG" />
+                                <img class="logo_tiny" src="images/icons8/icons8-gog.com-24.png" width="24" height="24" alt="GOG" />
                               </xsl:if>
                               <xsl:if test="Name='Steam'">
-                                <img class="logo_tiny" src="images/steam_logo_tiny.png" width="24" height="24" alt="Steam" />
+                                <img class="logo_tiny" src="images/icons8/icons8-steam-24.png" width="24" height="24" alt="Steam" />
                               </xsl:if>
                               <xsl:if test="Name='Origin'">
-                                <img class="logo_tiny" src="images/origin_logo_tiny.png" width="20" height="24" alt="Origin" />
+                                <img class="logo_tiny" src="images/icons8/icons8-origin-24.png" width="24" height="24" alt="Origin" />
                               </xsl:if>
                               <xsl:if test="Name='Blizzard'">
-                                <img class="logo_tiny" src="images/bnet_logo_tiny.png" width="24" height="24" alt="Blizzard" />
+                                <img class="logo_tiny" src="images/icons8/icons8-battle.net-24.png" width="24" height="24" alt="Blizzard" />
                               </xsl:if>
                               <xsl:if test="Name='Retail'">
-                                <img class="logo_tiny" src="images/retail_logo_tiny.png" width="24" height="24" alt="Retail" />
+                                <img class="logo_tiny" src="images/icons8/icons8-shop-24.png" width="24" height="24" alt="Retail" />
                               </xsl:if>
                               <xsl:if test="Name='DOSBox'">
                                 <img class="logo_tiny" src="images/dosbox_logo_tiny.png" width="24" height="24" alt="DOSBox" />
@@ -72,10 +72,10 @@
                                 <img class="logo_tiny" src="images/scumm_logo_tiny.png" width="24" height="24" alt="ScummVM" />
                               </xsl:if>
                               <xsl:if test="Name='FLOSS'">
-                                <img class="logo_tiny" src="images/floss_logo_tiny.png" width="24" height="24" alt="FLOSS" />
+                                <img class="logo_tiny" src="images/icons8/icons8-open-source-24.png" width="24" height="24" alt="FLOSS" />
                               </xsl:if>
                               <xsl:if test="Name='Tracking'">
-                                <img class="logo_tiny" src="images/tracking_tiny.png" width="24" height="24" alt="Tracking" />
+                                <img class="logo_tiny" src="images/icons8/icons8-time-24.png" width="24" height="24" alt="Tracking" />
                               </xsl:if>
                             </xsl:for-each>
                           </xsl:for-each>
